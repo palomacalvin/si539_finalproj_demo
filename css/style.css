@@ -1,0 +1,490 @@
+/* Body-wide styling */
+body {
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    background-color: #ffffff;
+}
+
+
+/* Skip to main styling */
+.skip {
+    position: absolute;
+    top: -65px;
+    color: #ffffff;
+}
+
+.skip:focus-visible {
+    top: 25px;
+    color: #ffffff;
+}
+
+/* *:focus {
+    border: dashed 5px #FFCB05;
+} */
+
+
+/* Main styling */
+.inner-section {
+    margin: 2rem
+}
+
+h1 {
+    color: #461e00;
+    margin-bottom: 2rem;
+    font-size: 3.5rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    line-height: 150%;
+    color: #2f5d3a;
+    font-weight: 500;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+ol {
+    margin-left: 2rem;
+}
+
+.image-credit {
+    font-size: 0.85rem;
+    color: #102114;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+
+
+/* Styling for grid on the threatened species page */
+.mammals-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-content: center;
+    background-color: bisque;
+}
+
+.mammal-grid-item {
+    background-color: bisque;
+    justify-items: center;
+    border-left: 6px solid #102114;
+    border-right: 6px solid #102114;
+}
+
+.mammal-grid-item p {
+    line-height: 150%;
+    color: #2f5d3a;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.mammal-grid-item img {
+    width: 100%;
+}
+
+p.mammal-title {
+    background-color: #102114;
+    width: 100%;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+/* Default/mobile navbar styling */
+.navbar {
+    background-color: #2f5d3a;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.menu-toggle {
+    display: block;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.nav-menu {
+    list-style: none;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #2f5d3a;
+    gap: 0.5rem;
+}
+
+.nav-menu.active {
+    display: flex;
+}
+
+.nav-menu li {
+    display: flex;
+    padding: 1rem 0;
+}
+
+.nav-menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.15rem 0.5rem;
+    min-height: 44px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #2f5d3a;
+    border-radius: 4px;
+}
+
+.nav-menu li a:hover {
+    background-color: #461e00;
+}
+
+
+
+/* Navbar styling */
+/* .navbar {
+    background-color: #2f5d3a;
+    color: #ffffff;
+    padding: 0.75rem 1rem;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 0.5rem;
+    align-items: stretch;
+}
+
+.nav-menu li {
+    display: flex;
+}
+
+.nav-menu li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0.15rem 0.5rem;
+    min-height: 44px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    background-color: #102114;
+    border-radius: 4px;
+}
+
+.nav-menu li a:hover {
+    text-decoration: underline;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+} */
+
+
+/* Unique classes */
+.banner {
+    background-color: #2f5d3a;
+    padding: 5%;
+}
+
+.color-block-section {
+    background-color: #102114;
+    margin: 0;
+    color: #ffffff;
+    padding: 2rem;
+    line-height: 150%;
+    font-weight: 500;
+}
+
+.color-block-section p {
+    color: #ffffff;
+}
+
+.color-block-section ul {
+    line-height: 150%;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    font-size: 1rem;
+}
+
+.color-block-section ul li {
+    padding-bottom: 1rem;
+}
+
+.color-block-section ol li {
+    padding-bottom: 1rem;
+}
+
+.animal-description {
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+p.animal-info {
+    background-color: #461e00;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+
+/* MixItUp Styling */
+.controls {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.controls button {
+    padding: 0.5rem 1rem;
+    background-color: #102114;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.controls button[data-filter=".endangered"].mixitup-control-active {
+    background-color: #8b0000; 
+}
+
+.controls button[data-filter=".threatened"].mixitup-control-active {
+    background-color: #d2691e;
+}
+
+.controls button[data-filter=".special-concern"].mixitup-control-active {
+    background-color: #846008;
+    color: white;
+}
+
+.controls .mixitup-control-active {
+    background-color: #461e00;
+}
+
+.mixitup-container .mix {
+    display: none;
+}
+
+
+/* Desktop/tablet styling */
+@media (min-width: 769px) {
+    .menu-toggle {
+        display: none;
+    }
+
+    .nav-menu {
+        display: flex;
+        position: static;
+        flex-direction: row;
+        width: auto;
+        background-color: transparent;
+        align-items: stretch;
+    }
+
+    .nav-menu li {
+        padding: 0;
+    }
+
+    .nav-menu li a {
+        background-color: #102114;
+    }
+
+    .mammals-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        padding: 2rem;
+    }
+
+    .mammal-grid-item {
+        margin-bottom: 0;
+        border-radius: 4px;
+        border-bottom: 6px solid #102114;
+        border-top: 6px solid #102114;
+    }
+
+    .banner {
+        font-size: 2.5rem;
+        padding: 2rem;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        font-size: 1.5rem;
+    }
+
+    img {
+        width: auto;
+        max-height: 400px;
+        justify-self: center;
+    }
+
+    .image-credit {
+        text-align: center;
+    }
+
+    h1.white {
+        font-size: 4rem;
+        color: white;
+        margin-top: 1rem;
+    }
+
+    .color-block-section {
+        line-height: 200%;
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+
+    .color-block-section p {
+        line-height: 200%;
+        font-size: 1.5rem;
+    }
+
+    .color-block-section ol {
+        font-size: 1.5rem;
+    }
+
+    .color-block-section ol li {
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .color-block-section ul {
+        font-size: 1.5rem;
+    }
+
+    .color-block-section ul li{
+        font-size: 1.5rem;
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media (min-width: 1000px) {
+    .mammals-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+
+
+/* Mobile styles */
+/* @media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        background-color: #2f5d3a;
+        flex-direction: column;
+        align-items: center;
+        display: none;
+    }
+
+    .nav-menu li a {
+        background-color: #2f5d3a;
+    }
+
+    .nav-menu.active {
+        display: flex;
+    }
+
+    .nav-menu li {
+        padding: 1rem 0;
+    }
+} */
+
+/* Desktop views */
+
+/* @media (min-width: 769px) {
+    .mammals-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        margin-top: 1rem;
+        background-color: bisque;
+    }
+
+} */
